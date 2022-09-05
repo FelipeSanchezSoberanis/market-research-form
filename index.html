@@ -19,280 +19,502 @@
     ></script>
   </head>
   <body>
-    <div class="container mt-3 p-3 ps-5 pe-5">
-      <div class="row mb-3">
-        <div class="col text-center">
-          <h1>Market Research on IT Solutions</h1>
+    <div id="app">
+      <div class="container mt-3 p-3 ps-5 pe-5">
+        <div class="row mb-3">
+          <div class="col text-center">
+            <h1>Market Research on IT Solutions</h1>
+          </div>
         </div>
-      </div>
 
-      <div class="question-wrapper">
-        <div class="row mb-2">
-          <div class="col">Email:</div>
-        </div>
-        <div class="row mb-5">
-          <div class="col">
-            <input type="text" placeholder="example@example.com" />
+        <div class="question-wrapper">
+          <div class="row mb-2">
+            <div class="col">Email:</div>
+          </div>
+          <div class="row mb-5">
+            <div class="col">
+              <input type="text" placeholder="example@example.com" />
+            </div>
           </div>
         </div>
-      </div>
 
-      <div class="question-wrapper">
-        <div class="row mb-2">
-          <div class="col">
-            Name of the Company, Business or Professional Service Provider:
+        <div class="question-wrapper">
+          <div class="row mb-2">
+            <div class="col">
+              Name of the Company, Business or Professional Service Provider:
+            </div>
+          </div>
+          <div class="row mb-5">
+            <div class="col">
+              <input type="text" placeholder="Name" />
+            </div>
           </div>
         </div>
-        <div class="row mb-5">
-          <div class="col">
-            <input type="text" placeholder="Name" />
-          </div>
-        </div>
-      </div>
 
-      <div class="question-wrapper">
-        <div class="row mb-2">
-          <div class="col">Industry to which it belongs:</div>
-        </div>
-        <div class="row mb-5">
-          <div class="col">
-            <input type="text" placeholder="Industry" />
+        <div class="question-wrapper">
+          <div class="row mb-2">
+            <div class="col">Industry to which it belongs:</div>
+          </div>
+          <div class="row mb-5">
+            <div class="col">
+              <input type="text" placeholder="Industry" />
+            </div>
           </div>
         </div>
-      </div>
 
-      <div class="question-wrapper">
-        <div class="row mb-2">
-          <div class="col">City where your business is located:</div>
-        </div>
-        <div class="row mb-5">
-          <div class="col">
-            <input type="text" placeholder="City" />
+        <div class="question-wrapper">
+          <div class="row mb-2">
+            <div class="col">City where your business is located:</div>
+          </div>
+          <div class="row mb-5">
+            <div class="col">
+              <input type="text" placeholder="City" />
+            </div>
           </div>
         </div>
-      </div>
 
-      <div class="question-wrapper">
-        <div class="row mb-2">
-          <div class="col">Years of operation:</div>
-        </div>
-        <div class="row mb-5">
-          <div class="col">
-            <input type="number" placeholder="Years of operation" />
+        <div class="question-wrapper">
+          <div class="row mb-2">
+            <div class="col">Years of operation:</div>
+          </div>
+          <div class="row mb-5">
+            <div class="col">
+              <input type="number" placeholder="Years of operation" />
+            </div>
           </div>
         </div>
-      </div>
 
-      <div class="question-wrapper">
-        <div class="row mb-2">
-          <div class="col">Number of employees:</div>
-        </div>
-        <div class="row mb-5">
-          <div class="col">
-            <input type="number" placeholder="Number of employees" />
+        <div class="question-wrapper">
+          <div class="row mb-2">
+            <div class="col">Number of employees:</div>
+          </div>
+          <div class="row mb-5">
+            <div class="col">
+              <input type="number" placeholder="Number of employees" />
+            </div>
           </div>
         </div>
-      </div>
 
-      <div class="question-wrapper">
-        <div class="row mb-2">
-          <div class="col">
-            Do you consider that your company is up to date on technology
-            matters?
+        <div class="question-wrapper">
+          <div class="row mb-2">
+            <div class="col">
+              Do you consider that your company is up to date on technology
+              matters?
+            </div>
+          </div>
+          <div class="row">
+            <div class="col"><input type="radio" name="upToDate" /> Yes</div>
+          </div>
+          <div class="row mb-5">
+            <div class="col"><input type="radio" name="upToDate" /> No</div>
           </div>
         </div>
-        <div class="row">
-          <div class="col"><input type="radio" name="upToDate" /> Yes</div>
-        </div>
-        <div class="row mb-5">
-          <div class="col"><input type="radio" name="upToDate" /> No</div>
-        </div>
-      </div>
 
-      <div class="question-wrapper">
-        <div class="row mb-2">
-          <div class="col">
-            Do you think that your company has needs regarding IT Services?
+        <div class="question-wrapper">
+          <div class="row mb-2">
+            <div class="col">
+              Do you think that your company has needs regarding IT Services?
+            </div>
+          </div>
+          <div class="row">
+            <div class="col">
+              <input type="radio" name="serviceNeeds" /> Yes
+            </div>
+          </div>
+          <div class="row mb-5">
+            <div class="col"><input type="radio" name="serviceNeeds" /> No</div>
           </div>
         </div>
-        <div class="row">
-          <div class="col"><input type="radio" name="serviceNeeds" /> Yes</div>
-        </div>
-        <div class="row mb-5">
-          <div class="col"><input type="radio" name="serviceNeeds" /> No</div>
-        </div>
-      </div>
 
-      <div class="question-wrapper">
-        <div class="row mb-2">
-          <div class="col">
-            Have you thought about contacting a company that can help you with
-            this issue?
+        <div class="question-wrapper">
+          <div class="row mb-2">
+            <div class="col">
+              Have you thought about contacting a company that can help you with
+              this issue?
+            </div>
+          </div>
+          <div class="row">
+            <div class="col">
+              <input type="radio" name="contactCompany" /> Yes
+            </div>
+          </div>
+          <div class="row mb-5">
+            <div class="col">
+              <input type="radio" name="contactCompany" /> No
+            </div>
           </div>
         </div>
-        <div class="row">
-          <div class="col">
-            <input type="radio" name="contactCompany" /> Yes
-          </div>
-        </div>
-        <div class="row mb-5">
-          <div class="col"><input type="radio" name="contactCompany" /> No</div>
-        </div>
-      </div>
 
-      <div class="question-wrapper">
-        <div class="row mb-2">
-          <div class="col">If not, what was the reason?</div>
-        </div>
-        <div class="row">
-          <div class="col">
-            <input type="checkbox" name="reason" /> Lack of time
+        <div class="question-wrapper">
+          <div class="row mb-2">
+            <div class="col">If not, what was the reason?</div>
+          </div>
+          <div class="row">
+            <div class="col">
+              <input type="checkbox" name="reason" /> Lack of time
+            </div>
+          </div>
+          <div class="row">
+            <div class="col">
+              <input type="checkbox" name="reason" /> Lack of resources
+            </div>
+          </div>
+          <div class="row">
+            <div class="col">
+              <input type="checkbox" name="reason" /> Don't know companies that
+              provide IT Services
+            </div>
+          </div>
+          <div class="row">
+            <div class="col">
+              <input type="checkbox" name="reason" /> Don't know what IT
+              Services I need
+            </div>
+          </div>
+          <div class="row">
+            <div class="col">
+              <input type="checkbox" name="reason" /> Services are out of budget
+            </div>
+          </div>
+          <div class="row mb-5">
+            <div class="col">
+              <input type="checkbox" name="reason" /> No particular reason
+            </div>
           </div>
         </div>
-        <div class="row">
-          <div class="col">
-            <input type="checkbox" name="reason" /> Lack of resources
-          </div>
-        </div>
-        <div class="row">
-          <div class="col">
-            <input type="checkbox" name="reason" /> Don't know companies that
-            provide IT Services
-          </div>
-        </div>
-        <div class="row">
-          <div class="col">
-            <input type="checkbox" name="reason" /> Don't know what IT Services
-            I need
-          </div>
-        </div>
-        <div class="row">
-          <div class="col">
-            <input type="checkbox" name="reason" /> Services are out of budget
-          </div>
-        </div>
-        <div class="row mb-5">
-          <div class="col">
-            <input type="checkbox" name="reason" /> No particular reason
-          </div>
-        </div>
-      </div>
 
-      <div class="question-wrapper">
-        <div class="row mb-2">
-          <div class="col">Where would you look for technology partners?</div>
-        </div>
-        <div class="row">
-          <div class="col">
-            <input type="checkbox" name="reason" /> Social Media (Facebook or
-            Instagram)
+        <div class="question-wrapper">
+          <div class="row mb-2">
+            <div class="col">Where would you look for technology partners?</div>
+          </div>
+          <div class="row">
+            <div class="col">
+              <input type="checkbox" name="reason" /> Social Media (Facebook or
+              Instagram)
+            </div>
+          </div>
+          <div class="row">
+            <div class="col">
+              <input type="checkbox" name="reason" /> LinkedIn
+            </div>
+          </div>
+          <div class="row">
+            <div class="col">
+              <input type="checkbox" name="reason" /> Search Engines (Google,
+              Bing, Yahoo, etc...)
+            </div>
+          </div>
+          <div class="row mb-5">
+            <div class="col">
+              <input type="checkbox" name="reason" /> Recommendation
+            </div>
           </div>
         </div>
-        <div class="row">
-          <div class="col">
-            <input type="checkbox" name="reason" /> LinkedIn
-          </div>
-        </div>
-        <div class="row">
-          <div class="col">
-            <input type="checkbox" name="reason" /> Search Engines (Google,
-            Bing, Yahoo, etc...)
-          </div>
-        </div>
-        <div class="row mb-5">
-          <div class="col">
-            <input type="checkbox" name="reason" /> Recommendation
-          </div>
-        </div>
-      </div>
 
-      <div class="question-wrapper">
-        <div class="row mb-2">
-          <div class="col">
-            In terms of Online Sales, which channels do you commonly use?
+        <div class="question-wrapper">
+          <div class="row mb-2">
+            <div class="col">
+              In terms of Online Sales, which channels do you commonly use?
+            </div>
+          </div>
+          <div class="row">
+            <div class="col">
+              <input type="checkbox" name="channel" /> Social Media (Facebook or
+              Instagram)
+            </div>
+          </div>
+          <div class="row">
+            <div class="col">
+              <input type="checkbox" name="channel" /> E-Commerce Web Page
+            </div>
+          </div>
+          <div class="row">
+            <div class="col">
+              <input type="checkbox" name="channel" /> E-Mail through Customer
+              Relationship Manager (CRM)
+            </div>
+          </div>
+          <div class="row mb-5">
+            <div class="col">
+              <input type="checkbox" name="channel" /> I dont' sell online
+            </div>
           </div>
         </div>
-        <div class="row">
-          <div class="col">
-            <input type="checkbox" name="channel" /> Social Media (Facebook or
-            Instagram)
-          </div>
-        </div>
-        <div class="row">
-          <div class="col">
-            <input type="checkbox" name="channel" /> E-Commerce Web Page
-          </div>
-        </div>
-        <div class="row">
-          <div class="col">
-            <input type="checkbox" name="channel" /> E-Mail through Customer
-            Relationship Manager (CRM)
-          </div>
-        </div>
-        <div class="row mb-5">
-          <div class="col">
-            <input type="checkbox" name="channel" /> I dont' sell online
-          </div>
-        </div>
-      </div>
 
-      <div class="question-wrapper">
-        <div class="row mb-2">
-          <div class="col">
-            Do you think that the activities carried out in your company could
-            be automated by using software?
+        <div class="question-wrapper">
+          <div class="row mb-2">
+            <div class="col">
+              Do you think that the activities carried out in your company could
+              be automated by using software?
+            </div>
+          </div>
+          <div class="row">
+            <div class="col"><input type="radio" name="automated" /> Yes</div>
+          </div>
+          <div class="row mb-5">
+            <div class="col"><input type="radio" name="automated" /> No</div>
           </div>
         </div>
-        <div class="row">
-          <div class="col"><input type="radio" name="automated" /> Yes</div>
-        </div>
-        <div class="row mb-5">
-          <div class="col"><input type="radio" name="automated" /> No</div>
-        </div>
-      </div>
 
-      <div class="question-wrapper">
-        <div class="row mb-2">
-          <div class="col">
-            Do you know the possible solutions that an IT company can offer you?
+        <div class="question-wrapper">
+          <div class="row mb-2">
+            <div class="col">
+              Do you know the possible solutions that an IT company can offer
+              you?
+            </div>
+          </div>
+          <div class="row">
+            <div class="col"><input type="radio" name="solutions" /> Yes</div>
+          </div>
+          <div class="row mb-5">
+            <div class="col"><input type="radio" name="solutions" /> No</div>
           </div>
         </div>
-        <div class="row">
-          <div class="col"><input type="radio" name="solutions" /> Yes</div>
-        </div>
-        <div class="row mb-5">
-          <div class="col"><input type="radio" name="solutions" /> No</div>
-        </div>
-      </div>
 
-      <div class="question-wrapper">
-        <div class="row mb-2">
-          <div class="col">
-            Currently, how are the technological aspects carried out within your
-            company?
+        <div class="question-wrapper">
+          <div class="row mb-2">
+            <div class="col">
+              Currently, how are the technological aspects carried out within
+              your company?
+            </div>
+          </div>
+          <div class="row">
+            <div class="col">
+              <input
+                type="radio"
+                name="aspects"
+                v-model="aspect"
+                value="external"
+              />
+              External service
+            </div>
+          </div>
+          <div class="row">
+            <div class="col">
+              <input
+                type="radio"
+                name="aspects"
+                v-model="aspect"
+                value="internal"
+              />
+              Internal service
+            </div>
+          </div>
+          <div class="row">
+            <div class="col">
+              <input
+                type="radio"
+                name="aspects"
+                v-model="aspect"
+                value="internal_external"
+              />
+              Internal & External services
+            </div>
+          </div>
+          <div class="row mb-5">
+            <div class="col">
+              <input
+                type="radio"
+                name="aspects"
+                v-model="aspect"
+                value="looking"
+              />
+              We are looking for support
+            </div>
           </div>
         </div>
-        <div class="row">
-          <div class="col">
-            <input type="radio" name="aspects" /> External service
+
+        <div
+          v-if="aspect === 'internal' || aspect === 'internal_external'"
+          class="question-wrapper"
+        >
+          <div class="row mb-2">
+            <div class="col">
+              What are the internal services that your company has?
+            </div>
+          </div>
+          <div class="row">
+            <div class="col">
+              <input type="checkbox" name="channel" /> Website development and
+              maintenance
+            </div>
+          </div>
+          <div class="row">
+            <div class="col">
+              <input type="checkbox" name="channel" /> Platform administrators
+            </div>
+          </div>
+          <div class="row">
+            <div class="col">
+              <input type="checkbox" name="channel" /> User management
+            </div>
+          </div>
+          <div class="row">
+            <div class="col">
+              <input type="checkbox" name="channel" /> Computer System
+              configuration
+            </div>
+          </div>
+          <div class="row mb-5">
+            <div class="col">
+              <input v-model="otherInternal" type="checkbox" name="channel" />
+              Otros:
+              <input :disabled="!otherInternal" type="text" />
+            </div>
+          </div>
+
+          <div class="row mb-2">How would you rate their work?</div>
+          <div class="row mb-5">
+            <div class="col-auto g-0 mt-auto">Poor</div>
+            <div class="col g-0 text-center">
+              1 <br />
+              <input name="internalRating" type="radio" />
+            </div>
+            <div class="col g-0 text-center">
+              2 <br />
+              <input name="internalRating" type="radio" />
+            </div>
+            <div class="col g-0 text-center">
+              3 <br />
+              <input name="internalRating" type="radio" />
+            </div>
+            <div class="col g-0 text-center">
+              4 <br />
+              <input name="internalRating" type="radio" />
+            </div>
+            <div class="col g-0 text-center">
+              5 <br />
+              <input name="internalRating" type="radio" />
+            </div>
+            <div class="col-auto g-0 mt-auto">Excellent</div>
           </div>
         </div>
-        <div class="row">
-          <div class="col">
-            <input type="radio" name="aspects" /> Internal service
+
+        <div
+          v-if="aspect === 'external' || aspect === 'internal_external'"
+          class="question-wrapper"
+        >
+          <div class="row mb-2">
+            <div class="col">What kind of services did you contract?</div>
+          </div>
+          <div class="row">
+            <div class="col">
+              <input type="checkbox" name="channel" /> Website development and
+              maintenance
+            </div>
+          </div>
+          <div class="row">
+            <div class="col">
+              <input type="checkbox" name="channel" /> E-Commerce platform
+            </div>
+          </div>
+          <div class="row">
+            <div class="col">
+              <input type="checkbox" name="channel" /> Implementation of ERP
+              system
+            </div>
+          </div>
+          <div class="row">
+            <div class="col">
+              <input type="checkbox" name="channel" /> Customized solution
+            </div>
+          </div>
+          <div class="row">
+            <div class="col">
+              <input type="checkbox" name="channel" /> Cloud backup and
+              management
+            </div>
+          </div>
+          <div class="row mb-5">
+            <div class="col">
+              <input v-model="otherExternal" type="checkbox" name="channel" />
+              Otros:
+              <input :disabled="!otherExternal" type="text" />
+            </div>
+          </div>
+
+          <div class="row mb-2">How would you rate their work?</div>
+          <div class="row">
+            <div class="col-auto g-0 mt-auto">Poor</div>
+            <div class="col g-0 text-center">
+              1 <br />
+              <input name="externalRating" type="radio" />
+            </div>
+            <div class="col g-0 text-center">
+              2 <br />
+              <input name="externalRating" type="radio" />
+            </div>
+            <div class="col g-0 text-center">
+              3 <br />
+              <input name="externalRating" type="radio" />
+            </div>
+            <div class="col g-0 text-center">
+              4 <br />
+              <input name="externalRating" type="radio" />
+            </div>
+            <div class="col g-0 text-center">
+              5 <br />
+              <input name="externalRating" type="radio" />
+            </div>
+            <div class="col-auto g-0 mt-auto">Excellent</div>
           </div>
         </div>
-        <div class="row">
-          <div class="col">
-            <input type="radio" name="aspects" /> Internal & External services
+
+        <div v-if="aspect === 'looking'" class="question-wrapper">
+          <div class="row mb-2">
+            <div class="col">
+              If you are looking for support, what kind of services are you
+              looking for?
+            </div>
           </div>
-        </div>
-        <div class="row mb-5">
-          <div class="col">
-            <input type="radio" name="aspects" /> We are looking for support
+          <div class="row">
+            <div class="col-auto">
+              <input type="checkbox" />
+            </div>
+            <div class="col">Website development and maintenance</div>
+          </div>
+          <div class="row">
+            <div class="col-auto">
+              <input type="checkbox" />
+            </div>
+            <div class="col">E-Commerce web page</div>
+          </div>
+          <div class="row">
+            <div class="col-auto">
+              <input type="checkbox" />
+            </div>
+            <div class="col">Cybersecurity consultancy</div>
+          </div>
+          <div class="row">
+            <div class="col-auto">
+              <input type="checkbox" />
+            </div>
+            <div class="col">Customized solution</div>
+          </div>
+          <div class="row">
+            <div class="col-auto">
+              <input type="checkbox" />
+            </div>
+            <div class="col">Cybersecurity consultancy</div>
+          </div>
+          <div class="row">
+            <div class="col-auto">
+              <input type="checkbox" />
+            </div>
+            <div class="col">General IT improvement consulting</div>
+          </div>
+          <div class="row mb-5">
+            <div class="col">
+              <input v-model="otherLooking" type="checkbox" name="channel" />
+              Otros:
+              <input :disabled="!otherLooking" type="text" />
+            </div>
           </div>
         </div>
       </div>
     </div>
+
+    <script src="https://unpkg.com/vue@3"></script>
+    <script src="main.js"></script>
   </body>
 </html>
